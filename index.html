@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Digit Recognition WebApp</title>
+    <meta name="description" content="Simple Machine Learning Model into an WebApp using TensorFlow.js">
+    <meta name="keywords" content="Machine Learning, TensorFlow.js">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <!--<script type="text/javascript" src="http://livejs.com/live.js"></script>-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.2/dist/tf.min.js"></script>
+    <h1>Digit Recognition WebApp</h1>
+    <div class="wrapper">
+        <div id="paint">
+            <canvas id="myCanvas"></canvas>
+        </div>
+        <div id="predicted">
+            <!-- Recognized digit -->
+            <div id="number"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
